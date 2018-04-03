@@ -16,6 +16,12 @@ class FactorialServiceSpec extends org.scalatest.FlatSpec with Matchers {
 
   }
 
+  "countZero for 10000" should "return 2499" in {
+
+    FactorialService.countZero(10000) shouldBe 2502
+
+  }
+
   "calculate factorial for 5" should "return 120" in {
 
     FactorialService.calculateFactorial(5) shouldBe 120
