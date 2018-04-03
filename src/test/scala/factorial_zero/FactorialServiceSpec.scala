@@ -18,7 +18,7 @@ class FactorialServiceSpec extends org.scalatest.FlatSpec with Matchers {
 
   "countZero for 10000" should "return 2499" in {
 
-    FactorialService.countZero(10000) shouldBe 2502
+    FactorialService.countZero(10000) shouldBe 2499
 
   }
 
